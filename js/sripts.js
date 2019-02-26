@@ -10,6 +10,7 @@ $(document).ready(function(){
     $("#result").text("You scored " + total + " %");
 
      event.preventDefault()
+  });
 
      if(total >80 && total<=100){
       $("#grade").text("Excellent");
@@ -23,8 +24,9 @@ $(document).ready(function(){
         $("#register").hide();
         $("#body").slideDown(500)
         $("#body").show();
-        });
-      });
+
+
       $(".retake").click(function(){
         $(".output").empty();
       });
+  });
