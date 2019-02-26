@@ -8,13 +8,13 @@ $(document).ready(function(){
 
     var total = qst1 + qst2 + qst3 + qst4;
     $("#result").text("You scored " + total + " %");
-    
+
      event.preventDefault()
   });
 
      if(total >80 && total<=100){
       $("#grade").text("Excellent");
-    }else if(total >= 50 && total <=80){
+    }  else if(total >= 50 && total <=80){
       $("#grade").text("Fair Results");
       } else{
         $("#grade").text("Poor");
