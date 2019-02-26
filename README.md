@@ -7,9 +7,6 @@ Current Version 15/02/2019
 ## Description
 This application is an essential testing method that uses common but reliable Javascript functions to determine the level of knowledge one has and to accurately determine by what extent one is knowledgable on the language. Reults are directly relayed and user's comments relayed in real time.
 
-## Deployed Link
-To check out and try out the test click upon this link
-
 ## Setup/Installation Requirements
 * Type in first name
 * Type in second name
