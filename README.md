@@ -12,18 +12,9 @@ To check out and try out the test click upon this link
 
 ## Setup/Installation Requirements
 * Type in first name
-
-##Behaviour Driven Development
-
-| Expected   Behaviour              | Input                             | Output               |
-|-----------------------------------|-----------------------------------|----------------------|
-| Accept name and submit it         | First and second names            | Show names on the results        |
-| Permit access to the quiz board   | Clicking the begin test button    | Linked into the quizboard page   |
-| Check the value user inputs       | Any choice within scope of radio buttons   | Check thge gradio button clicked upon     |
-| Determine and return user results| Submit the checked radio buttons | Return user's results       |
-
-## Deployed Link
-To check out and try out the test click upon this link
+* Type in second name
+* Choose one of the answers
+* Submit answers
 
 ## Known Bugs
 The automatic reset button is yet to be automated to automatically reset workspace.
@@ -38,12 +29,16 @@ The automatic reset button is yet to be automated to automatically reset workspa
 Everyone interested is most welcome to fork this code and modify it for updates. In case of any inconvenience experienced reach out to me through my email address: gusochieng@gmail.com
 
 ## Behaviour Driven Development
+
 | Expected Behaviour     | Input                    | Output                 |
 |------------------------|--------------------------|------------------------|
 | Accept name and submit it| First and second names | Show names             |
 | Permit access to quiz board| Clicking thr begin test button| Linked into the quizboard page|
 | Check the checked radio button| Any choice within scope of radio buttons| Check radio button clicked upon|
 | Determine and return value user inputs| Submit checked radio buttons| Return user's results|
+
+## Deployed Link
+To check out and try out the test click upon this link
 
 ### License
 *MIT License*
@@ -58,6 +53,5 @@ To adopt MIT License, enter your details. You’ll have a chance to review befor
 Year
 2019
 Full name
-AugustineOchieng
+Augustine Ochieng
 Copyright (c) 2018 **Augustine Ochieng**
-  
