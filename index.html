@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <title>Quiz Board</title>
+  </head>
+  <body>
+  <div id="register">
+    First name:<br>
+    <input type="text" name="firstname" id="name1" placeholder="Enter your first name here"><br>
+    Last name:<br>
+    <input type="text" name="secondname" id="name2" placeholder="Enter your second name"><br>
+    <button id="nam" type="button" value="submit" id="start">Begin the test</button>
+    <div id="welcome"></div>
+  </div>
+  <div id="body">
+    <div class="container">
+
+
+      <h1>Hogwarts Academy Quiz Board</h1>
+      <form id="input">
+        <ol>
+          <li>
+            <div id="input001">
+              <p>Which of the following is not Javascript term:</p>
+              <div>
+                <input type="radio" id="logic" name="question1" value="0" required>
+                <label for="logic">Business Logic</label>
+              </div>
+              <div>
+                <input type="radio" id="end" name="question1" value="0" required>
+                <label for="end">Branch</label>
+              </div>
+
+              <div>
+                <input type="radio" id="shift" name="question1" value="25" required>
+                <label for="shift">Shift</label>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div id="input002">
+
+              <p>What does the map() function do in Javascript?</p>
+              <div>
+                <input type="radio" id="direct" name="question2" value="0" required>
+                <label for="direct">Show one's position relative to a place</label>
+              </div>
+              <div>
+                <input type="radio" id="true" name="question2" value="25" required>
+                <label for="true">Perform an action on every element</label>
+              </div>
+
+              <div>
+                <input type="radio" id="guide" name="question2" value="0" required>
+                <label for="guide">Guide an element to an intended array</label>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div id="input003">
+              <p>Which of the following is not a markup language:</p>
+              <div>
+                <input type="radio" id="presentational" name="question3" value="0" required>
+                <label for="presentatonal">Presentational markup</label>
+              </div>
+              <div>
+                <input type="radio" id="procedure" name="question3" value="0" required>
+                <label for="procedure">Procedural markup</label>
+              </div>
+
+              <div>
+                <input type="radio" id="detail" name="question3" value="25" required>
+                <label for="detail">Detailed markup</label>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p>Which of the following is <strong>NOT</strong> a javascript data type</p>
+              <input type="radio" id="no." name="question4" value="0" required>
+              <label for="no.">Number</label>
+            </div>
+
+            <div>
+              <input type="radio" id="null" name="question4" value="25" required>
+              <label for="null">Nan</label>
+            </div>
+
+            <div>
+              <input type="radio" id="undef3" name="question4" value="0" required>
+              <label for="undef">Undefined</label>
+            </div>
+        </ol>
+
+
+
+        <button type="submit" class="btn" btn btn-info->Submit</button>
+        <input type="reset" class="retake">
+
+      </form>
+      <div id="result" class="output"></div>
+      <div id="grade" class="output"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
