@@ -38,7 +38,7 @@ Everyone interested is most welcome to fork this code and modify it for updates.
 | Determine and return value user inputs| Submit checked radio buttons| Return user's results|
 
 ## Deployed Link
-To check out and try out the test click upon this link https://github.com/AugustineOchieng/Js-Quiz.git
+To check out and try out the test click upon this link  https://github.com/AugustineOchieng/Js-Quiz.git
 
 ### License
 *MIT License*
