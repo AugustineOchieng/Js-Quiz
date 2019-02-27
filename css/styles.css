@@ -27,6 +27,8 @@ body {
   margin-right: 25%;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
+  background-image: url('https://wpmisc.com/sites/default/files/wallpaper/abstract/65839/abstract-blue-hd-wallpapers-65839-392128.jpg');
+  opacity: 0.8;
 }
 #center001 {
   text-align: center;
@@ -73,4 +75,5 @@ body {
 #register {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
+  color: white;
 }
