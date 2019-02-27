@@ -1,55 +1,6 @@
-input[type=submit],input[type=reset]{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 3px;
-    cursor: point;
-    border-radius: 15px 30px;
-}
-.button:hover {
-  background-color: rgba(255, 0, 0, 1);
-}
-
-.button:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-              inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-body{
-    background-color: #ACFCD9;
-    color: black;
-    font-weight: 500px;
-    margin-top: 10%;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-  font-family: 'Quicksand', sans-serif;
-}
-#center001 {
-  text-align: center;
-}
-.container{
-  margin: 8px 0;
-  border: 2px solid #886176;
-  box-sizing: border-box;
-  border-style: none;
-  border-radius: 5px 20px 5px;
-  background: #BADA55;
-  box-shadow: #616161;
-  border-style: outset;
-  width: 700px;
-  padding: 10px 10px 20px 10px;
-  border: 1px solid #BFBFBF;
-  background-color: white;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  text-align: justify;
-}
-#body{
-  display: none;
-}
-.btn{
-  background-color: #4CAF50;
+input[type='submit'],
+input[type='reset'] {
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -58,8 +9,59 @@ body{
   cursor: point;
   border-radius: 15px 30px;
 }
-#nam{
-  background-color: #4CAF50;
+.button:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+body {
+  color: #2a3d45;
+  background-color: rgba(234, 250, 241, 0.5);
+  color: black;
+  font-weight: 500px;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+#center001 {
+  text-align: center;
+}
+.container {
+  margin: 8px 0;
+  border: 2px solid #886176;
+  box-sizing: border-box;
+  border-style: none;
+  border-radius: 5px 20px 5px;
+  background: #bada55;
+  box-shadow: #616161;
+  border-style: outset;
+  width: 700px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  text-align: justify;
+}
+#body {
+  display: none;
+}
+.btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 3px;
+  cursor: point;
+  border-radius: 15px 30px;
+}
+#nam {
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -68,7 +70,7 @@ body{
   cursor: point;
   border-radius: 15px 30px;
 }
-#register{
+#register {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
 }
